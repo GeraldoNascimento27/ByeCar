@@ -1,0 +1,55 @@
+/* :root {
+    --header-background: #303030;
+    --header-color: #ffffff;
+    --section-background: #ffffff;
+    --section-headings: #265e70;
+    --section-heading-motos: #4dbce9;
+    --carousel-card-color: #ffffff;
+    --carousel-card-background: #4dbce9bf;
+    --carousel-card-price: #265e70;
+    --button-learn-more-background: #4dbce9;
+    --button-learn-more-color: #ffffff;
+    --modal-background: #dfdfdfe5;
+    --modal-card-background: #4dbce9bf;
+    --default-radius: 15px;
+} */
+
+header {
+    padding: 1rem;
+    background: #303030;
+    color:#ffffff;
+    column-gap: 2rem;
+    display: flex;
+    align-items: center;
+}
+
+header h1 {
+    font-weight: 500;
+    font-size: 48px;
+    font-family: 'Raleway', sans-serif;
+}
+
+.left-content h2 , .direita {
+    font-family: 'Verdana';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 44px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #265E70;
+}
+section{
+    display: flex;
+    grid-auto-flow: column;
+}
+li{
+    background: rgba(77, 188, 233, 0.75);
+    border-radius: 15px;
+    color: #ffffff;
+}
+li h2{
+    color: #265E70;
+}
